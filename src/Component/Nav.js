@@ -30,7 +30,7 @@ export default function Nav() {
 <Container className="Links">
     
     <Row>      
-<Col className="Col">  <Link to="/" className="Active">الرئيسية</Link> </Col>
+<Col className="Col">  <Link to="/home" className="Active">الرئيسية</Link> </Col>
 <Col className="Col">  <Link to="/menue">قائمة الطعام</Link>  </Col>
 <Col className="Col">  <Link to="/disc">العروض</Link>  </Col>    
     </Row>

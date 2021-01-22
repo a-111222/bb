@@ -9,7 +9,7 @@ import "./Scrolltotop.css";
 const Menue = () => {
   const [images, setImages] = useState([]);
   useEffect(() => {
-    axios.get("home/data/data.json").then((res) => {
+    axios.get("babelharaa/data/data.json").then((res) => {
       setImages(res.data.mmenue);
     });
   }, []);

@@ -8,7 +8,7 @@ import './Scrolltotop.css';
 const Meals = () => {
   const [images, setImages] = useState([]);
   useEffect(() => {
-    axios.get("home/data/data.json").then((res) => {
+    axios.get("babelharaa/data/data.json").then((res) => {
       setImages(res.data.mmeals);
     });
   }, []);
