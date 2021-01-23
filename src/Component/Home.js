@@ -13,6 +13,7 @@ export default class Home extends Component {
           <div className="overlay"></div>
           <Col className="Col">
             <video
+            playsInline 
               autoPlay
               loop
               muted
