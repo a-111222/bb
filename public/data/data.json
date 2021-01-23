@@ -3,37 +3,37 @@
     
         {
             "id":1,
-            "img":"../babelharaa/img/n.jpg",
+            "img":"../bb/img/n.jpg",
             "link":"/Manaesh",
             "title":" ركن المناقيش "
         },
         {
             "id":2,
-            "img":"../babelharaa/img/c.jpg",
+            "img":"../bb/img/c.jpg",
             "title":"ركن البيتزا ",
             "link":"/Pizza"
         },
         {
             "id":3,
-            "img":"../babelharaa/img/a.jpg",
+            "img":"../bb/img/a.jpg",
             "title":" ركن الساندوتش ",
             "link":"/Sandawitch"
         },
         {
             "id":4,
-            "img":"../babelharaa/img/s.jpg",
+            "img":"../bb/img/s.jpg",
             "title":" ركن الشاورما ",
             "link":"/Shwrma"
         },
         {
             "id":5,
-            "img":"../babelharaa/img/d.jpg",
+            "img":"../bb/img/d.jpg",
             "title":" ركن دجاج الشواية ",
             "link":"/Checken"
         },
         {
             "id":6,
-            "img":"../babelharaa/img/b.jpg",
+            "img":"../bb/img/b.jpg",
             "title":"  الركن العربي ",
             "link":"/ArabianCorner"
         },
@@ -41,19 +41,19 @@
       
         {
             "id":9,
-            "img":"../babelharaa/img/e.jpg",
+            "img":"../bb/img/e.jpg",
             "title":" السلطات و الاضافات ",
             "link":"/Salat"
         }, 
         {
             "id":7,
-            "img":"../babelharaa/img/mm.jpg",
+            "img":"../bb/img/mm.jpg",
             "title":" ركن الوجبات ",
             "link":"/Meals"
         },
         {
             "id":8,
-            "img":"../babelharaa/img/l.jpg",
+            "img":"../bb/img/l.jpg",
             "title":" ركن مشويات الفحم ",
             "link":"/Mshawy"
         }

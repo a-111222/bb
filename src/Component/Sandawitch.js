@@ -8,7 +8,7 @@ import './Scrolltotop.css';
 const Sandawich = () => {
   const [images, setImages] = useState([]);
   useEffect(() => {
-    axios.get("babelharaa/data/data.json").then((res) => {
+    axios.get("bb/data/data.json").then((res) => {
       setImages(res.data.ssandawich);
     });
   }, []);
