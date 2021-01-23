@@ -17,7 +17,7 @@ const Manaesh = () => {
       <div  key={imageItem.id}>
         <p className="table-title">{imageItem.title}</p>
         <table className="scoundtable">
-          <thead>
+          <thead key="thead">
             <tr>
               <th className="thtable">{imageItem.desc}</th>
               <th className="thtable">{imageItem.price}</th>
@@ -39,7 +39,7 @@ const Manaesh = () => {
       </div>
 
       <table className="manaeshTable">
-        <thead>
+        <thead key="thead">
           <tr>
             <th>الصنف</th>
             <th>السعر </th>
