@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/bb/static/css/main.25cd7022.chunk.css",
+    "main.js": "/bb/static/js/main.0cd761e2.chunk.js",
+    "main.js.map": "/bb/static/js/main.0cd761e2.chunk.js.map",
+    "runtime-main.js": "/bb/static/js/runtime-main.7c837caf.js",
+    "runtime-main.js.map": "/bb/static/js/runtime-main.7c837caf.js.map",
+    "static/js/2.114ab0d6.chunk.js": "/bb/static/js/2.114ab0d6.chunk.js",
+    "static/js/2.114ab0d6.chunk.js.map": "/bb/static/js/2.114ab0d6.chunk.js.map",
+    "static/js/3.eff2f639.chunk.js": "/bb/static/js/3.eff2f639.chunk.js",
+    "static/js/3.eff2f639.chunk.js.map": "/bb/static/js/3.eff2f639.chunk.js.map",
+    "index.html": "/bb/index.html",
+    "static/css/main.25cd7022.chunk.css.map": "/bb/static/css/main.25cd7022.chunk.css.map",
+    "static/js/2.114ab0d6.chunk.js.LICENSE.txt": "/bb/static/js/2.114ab0d6.chunk.js.LICENSE.txt",
+    "static/media/a.c963e1de.jpg": "/bb/static/media/a.c963e1de.jpg",
+    "static/media/b.8340f901.jpg": "/bb/static/media/b.8340f901.jpg",
+    "static/media/c.fbcecad1.jpg": "/bb/static/media/c.fbcecad1.jpg",
+    "static/media/d.1bee786d.jpg": "/bb/static/media/d.1bee786d.jpg",
+    "static/media/l.5a1b1d7b.jpg": "/bb/static/media/l.5a1b1d7b.jpg",
+    "static/media/Homestyle.css": "/bb/static/media/main.6565e798.png",
+    "static/media/mm.eec9f6a0.jpg": "/bb/static/media/mm.eec9f6a0.jpg",
+    "static/media/n.7ff1e94d.jpg": "/bb/static/media/n.7ff1e94d.jpg",
+    "static/media/pizza.27d6a0c1.mp4": "/bb/static/media/pizza.27d6a0c1.mp4",
+    "static/media/s.4a36b46d.jpg": "/bb/static/media/s.4a36b46d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c837caf.js",
+    "static/js/2.114ab0d6.chunk.js",
+    "static/css/main.25cd7022.chunk.css",
+    "static/js/main.0cd761e2.chunk.js"
+  ]
+}
