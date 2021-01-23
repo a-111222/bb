@@ -22,10 +22,11 @@ import {
     Route,
     Link
   } from "react-router-dom";
+  import { HashRouter} from "react-router-dom";
 
 export default function Nav() {
     return (
-        <Router>
+        <HashRouter>
             <div>
 <Container className="Links">
     
@@ -56,7 +57,7 @@ export default function Nav() {
 
         </Switch>
           </div>
-          </Router> 
+          </HashRouter> 
 
     );
 }
