@@ -17,7 +17,7 @@ import Meals from './Meals';
 import Mshawy from './Mshawy';
 
 import {
-    BrowserRouter as Router,
+   HashRouter,
     Switch,
     Route,
     Link
@@ -25,7 +25,7 @@ import {
 
 export default function Nav() {
     return (
-        <Router>
+        <HashRouter>
             <div>
 <Container className="Links">
     
@@ -56,7 +56,7 @@ export default function Nav() {
 
         </Switch>
           </div>
-          </Router> 
+          </HashRouter> 
 
     );
 }
