@@ -17,15 +17,15 @@ import Meals from './Meals';
 import Mshawy from './Mshawy';
 
 import {
+    BrowserRouter as Router,
     Switch,
     Route,
     Link
   } from "react-router-dom";
-  import { HashRouter} from "react-router-dom";
 
 export default function Nav() {
     return (
-        <HashRouter>
+        <Router>
             <div>
 <Container className="Links">
     
@@ -56,7 +56,7 @@ export default function Nav() {
 
         </Switch>
           </div>
-          </HashRouter> 
+          </Router> 
 
     );
 }
