@@ -16,17 +16,12 @@ import Salat from './Salat';
 import Meals from './Meals';
 import Mshawy from './Mshawy';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import { HashRouter} from "react-router-dom";
+import { HashRouter as Router, Switch, Route} from 'react-router-dom';
 
-
-import {
-    Switch,
-    Route,
-  } from "react-router-dom";
 
 export default function Nav() {
     return (
-        <HashRouter>
+        <Router>
             <div>
 <Container className="Links">
     
@@ -57,7 +52,7 @@ export default function Nav() {
 
         </Switch>
           </div>
-          </HashRouter> 
+          </Router> 
 
     );
 }

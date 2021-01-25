@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import './Component/StyleComponent.css';
 import Nav from './Component/Nav';
+
 function App() {
   return (
   <div>
