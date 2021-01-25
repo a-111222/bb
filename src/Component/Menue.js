@@ -5,6 +5,7 @@ import "./Menuestyle.css";
 import Scrolltotop from "./Scrolltotop";
 import "./Scrolltotop.css";
 import { HashLink } from 'react-router-hash-link';
+import { HashRouter} from "react-router-dom";
 
 const Menue = () => { 
   const [images, setImages] = useState([]);
@@ -18,13 +19,14 @@ const Menue = () => {
     return (
       <div className="parent">
         <ImageWrapper key={imageItem.id} className="wrapper">
-   
+        <HashRouter>
        <HashLink to={imageItem.link}>
             <Overlay />
             <Image src={imageItem.img} alt="" />
 
             <H2 className="H2">{imageItem.title}</H2>
           </HashLink>
+          </HashRouter>
         </ImageWrapper>
       </div>
     );
