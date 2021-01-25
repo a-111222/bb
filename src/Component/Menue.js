@@ -6,13 +6,17 @@ import Scrolltotop from "./Scrolltotop";
 import "./Scrolltotop.css";
 import { HashLink } from 'react-router-hash-link';
 
-const Menue = () => {
+const Menue = () => { 
+  return (
+    <div> hello from manue </div>
+  )
+  {/*
   const [images, setImages] = useState([]);
   useEffect(() => {
     axios.get("./bb/data/data.json").then((res) => {
       setImages(res.data.mmenue);
     });
-  }, []);
+  },[]);
 
   const menueImages = images.map((imageItem) => {
     return (
@@ -34,6 +38,7 @@ const Menue = () => {
       {menueImages}
       <Scrolltotop/>
     </div>
-  );
+  ); */}
+
 };
 export default Menue;
