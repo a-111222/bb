@@ -10,7 +10,7 @@ import { HashRouter} from "react-router-dom";
 const Menue = () => { 
   const [images, setImages] = useState([]);
   useEffect(() => {
-    axios.get("../data/data.json").then((res) => {
+    axios.get("bb/data/data.json").then((res) => {
       setImages(res.data.mmenue);
     });
   },[]);
@@ -19,7 +19,7 @@ const Menue = () => {
     return (
       <div className="parent">
         <ImageWrapper key={imageItem.id} className="wrapper">
-        <HashRouter>
+   <HashRouter>
        <HashLink to={imageItem.link}>
             <Overlay />
             <Image src={imageItem.img} alt="" />
@@ -27,6 +27,7 @@ const Menue = () => {
             <H2 className="H2">{imageItem.title}</H2>
           </HashLink>
           </HashRouter>
+
         </ImageWrapper>
       </div>
     );
