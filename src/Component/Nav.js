@@ -16,7 +16,6 @@ import Salat from './Salat';
 import Meals from './Meals';
 import Mshawy from './Mshawy';
 import {
-    BrowserRouter as Router,
     Switch,
     Route,
     Link
