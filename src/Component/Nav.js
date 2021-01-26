@@ -39,7 +39,7 @@ export default function Nav() {
 </Container>
 
         <Switch>
-            <Route exact path="/"><Home/></Route>
+            <Route exact path="/home"><Home/></Route>
             <Route path="/menue"> <Menue/></Route>
             <Route path="/disc"><Disc/></Route>
             <Route path="/sandawitch"><Sandawitch/></Route>
