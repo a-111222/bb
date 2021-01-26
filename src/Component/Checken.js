@@ -7,7 +7,7 @@ import './Scrolltotop.css';
 const Checken = () => {
   const [images, setImages] = useState([]);
   useEffect(() => {
-    axios.get("bb/data/data.json").then((res) => {
+    axios.get("/data/data.json").then((res) => {
       setImages(res.data.ccheken);
     });
   }, []);

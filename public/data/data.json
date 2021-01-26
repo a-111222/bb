@@ -3,37 +3,37 @@
     
         {
             "id":1,
-            "img":"../bb/img/n.jpg",
+            "img":"/img/n.jpg",
             "link":"/Manaesh",
             "title":" ركن المناقيش "
         },
         {
             "id":2,
-            "img":"../bb/img/c.jpg",
+            "img":"/img/c.jpg",
             "title":"ركن البيتزا ",
             "link":"/Pizza"
         },
         {
             "id":3,
-            "img":"../bb/img/a.jpg",
+            "img":"/img/a.jpg",
             "title":" ركن الساندوتش ",
             "link":"/Sandawitch"
         },
         {
             "id":4,
-            "img":"../bb/img/s.jpg",
+            "img":"/img/s.jpg",
             "title":" ركن الشاورما ",
             "link":"/Shwrma"
         },
         {
             "id":5,
-            "img":"../bb/img/d.jpg",
+            "img":"/img/d.jpg",
             "title":" ركن دجاج الشواية ",
             "link":"/Checken"
         },
         {
             "id":6,
-            "img":"../bb/img/b.jpg",
+            "img":"/img/b.jpg",
             "title":"  الركن العربي ",
             "link":"/ArabianCorner"
         },
@@ -41,19 +41,19 @@
       
         {
             "id":9,
-            "img":"../bb/img/e.jpg",
+            "img":"/img/e.jpg",
             "title":" السلطات و الاضافات ",
             "link":"/Salat"
         }, 
         {
             "id":7,
-            "img":"../bb/img/mm.jpg",
+            "img":"/img/mm.jpg",
             "title":" ركن الوجبات ",
             "link":"/Meals"
         },
         {
             "id":8,
-            "img":"../bb/img/l.jpg",
+            "img":"/img/l.jpg",
             "title":" ركن مشويات الفحم ",
             "link":"/Mshawy"
         }

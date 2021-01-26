@@ -15,9 +15,12 @@ import ArabianCorner from './ArabianCorner';
 import Salat from './Salat';
 import Meals from './Meals';
 import Mshawy from './Mshawy';
-import { NavHashLink as NavLink } from 'react-router-hash-link';
-import { HashRouter as Router, Switch, Route} from 'react-router-dom';
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 export default function Nav() {
     return (
@@ -26,16 +29,16 @@ export default function Nav() {
 <Container className="Links">
     
     <Row>      
-<Col className="Col">  <NavLink to="/home" className="Active">الرئيسية</NavLink> </Col>
-<Col className="Col">  <NavLink to="/menue">قائمة الطعام</NavLink>  </Col>
-<Col className="Col">  <NavLink to="/disc">العروض</NavLink>  </Col>    
+<Col className="Col">  <Link to="/home" className="Active">الرئيسية</Link> </Col>
+<Col className="Col">  <Link to="/menue">قائمة الطعام</Link>  </Col>
+<Col className="Col">  <Link to="/disc">العروض</Link>  </Col>    
     </Row>
 
     
 </Container>
 
         <Switch>
-            <Route exact path="/home"><Home/></Route>
+            <Route exact path="/"><Home/></Route>
             <Route path="/menue"> <Menue/></Route>
             <Route path="/disc"><Disc/></Route>
             <Route path="/sandawitch"><Sandawitch/></Route>
