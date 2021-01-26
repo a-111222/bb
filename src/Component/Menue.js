@@ -5,7 +5,7 @@ import "./Menuestyle.css";
 import Scrolltotop from "./Scrolltotop";
 import "./Scrolltotop.css";
 import { Link } from 'react-router-dom';
-
+import Footer from './Footer';
 const Menue = () => { 
   const [images, setImages] = useState([]);
   useEffect(() => {
@@ -33,6 +33,7 @@ const Menue = () => {
     <div className="test">
       {menueImages}
       <Scrolltotop/>
+      <Footer/>
     </div>
   );
 };

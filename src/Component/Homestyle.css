@@ -49,7 +49,7 @@ left: 0;
 height: 100%;
 width: 100%;
 background: black;
-opacity: .9;
+opacity: .7;
 }
 /*start media*/
 @media(min-width:320px) and (max-width:992px){

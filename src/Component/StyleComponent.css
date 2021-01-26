@@ -218,6 +218,31 @@ to {
 transform: translateY(-1000px) rotate(360deg);
 }
 }
+
+/*start footer*/
+.mainFooter{
+    width: 100%;
+    margin: 0 auto;
+    background: #1d1c1b;
+    text-align: center;
+    padding: 0;
+    color: #FFF;
+    font-size: 1.3rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.mainFooter a{
+    text-decoration: none;
+    color: #FFF!important;
+}
+.mainFooter .fa-heart{
+    color: #bd0000;
+    font-size: 14px;
+}
+.mainFooter .fa-code{
+    font-size: 14px;
+
+}
 /*start media*/
 @media (min-width: 320px) and (max-width: 500px) {
 .main-section {
