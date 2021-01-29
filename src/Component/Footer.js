@@ -13,7 +13,7 @@ export default function Footer() {
         <a href="https://www.facebook.com/campaignofficial.egy/">
 
        
-        with <i className="fas fa-heart"></i> by 2021 Campaign  
+        with <i className="fas fa-heart"></i> by Campaign 2021  
         <span>  <i className="fas fa-code"></i> </span>
 
               </a>

@@ -4,7 +4,7 @@ import "./StyleComponent.css";
 export default function Disc() {
     return (
         <div>
-            هنا الخصومات 
+            قريبا سيوجد هنا كل العروض و الخصومات ...
        
         </div>
     )

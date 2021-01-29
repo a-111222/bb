@@ -5,8 +5,16 @@ body{
   background: #2b2a2a;
   scroll-behavior: smooth!important;
   font-family: 'Tajawal', sans-serif!important;
-
-
 }
 
- 
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.contet-app{
+  width: 100%;
+  height: 100vh; 
+}

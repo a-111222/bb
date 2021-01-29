@@ -46,7 +46,7 @@ const ArabianCorner = () => {
           
       </table>
       {Arabian}
-      <a href="tel:01024131582">
+      <a href="tel:16483">
       <div className="Order">  <i className="fas fa-phone-alt"></i> </div>
       </a>
       <Scrolltotop/>
