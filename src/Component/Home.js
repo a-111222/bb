@@ -12,9 +12,9 @@ export default class Home extends Component {
         <Row className="Row">
           <div className="overlay"></div>
           <Col className="Col">
-            <video
+          <video
             playsInline 
-              autoPlay
+            autoPlay
               loop
               muted
               style={{
@@ -27,6 +27,7 @@ export default class Home extends Component {
             >
               <source src={pizza} type="video/mp4" />
             </video>
+          
           </Col>
           <div className="mainimage"> </div>
         </Row>

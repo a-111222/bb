@@ -10,7 +10,7 @@ function App() {
   setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-  },6000)//i make it false to stop this loading after 8000s 
+  },0)//i make it false to stop this loading after 8000s 
   },[])
 
   return (

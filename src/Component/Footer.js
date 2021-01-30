@@ -9,6 +9,9 @@ export default function Footer() {
         <div>
 <Container fluid="md" className="mainFooter">
   <Row>
+    <Col><i className="fas fa-map-marker-alt"></i> دمياط: امتداد ميدان سرور امام استوديو باريس</Col>
+    <Col><i className="fas fa-map-marker-alt"></i> دمياط الجديدة: شارع البحر ناصية المجاورة 14</Col>
+
     <Col>
         <a href="https://www.facebook.com/campaignofficial.egy/">
 

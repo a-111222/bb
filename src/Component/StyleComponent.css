@@ -232,7 +232,12 @@ transform: translateY(-1000px) rotate(360deg);
     letter-spacing: 2px;
     position: relative;
     bottom: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 40px;
 }
+
 .mainFooter a{
     text-decoration: none;
     color: #FFF!important;
@@ -243,8 +248,24 @@ transform: translateY(-1000px) rotate(360deg);
 }
 .mainFooter .fa-code{
     font-size: 14px;
-
 }
+.mainFooter .fa-map-marker-alt,
+.mainFooter .fa-map-marker-alt{
+    color: #f78916;
+}
+/*******************************/
+/*start frid*/
+.prag{
+    color: #f78916!important;   
+}
+
+
+
+
+
+
+
+
 /*start media*/
 @media (min-width: 320px) and (max-width: 500px) {
 .main-section {

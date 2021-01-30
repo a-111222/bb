@@ -15,6 +15,8 @@ import ArabianCorner from './ArabianCorner';
 import Salat from './Salat';
 import Meals from './Meals';
 import Mshawy from './Mshawy';
+import Frid from './Frid';
+
 import {
     Switch,
     Route,
@@ -51,7 +53,7 @@ export default function Nav() {
             <Route path="/arabianCorner"><ArabianCorner/></Route>
             <Route path="/salat"><Salat/></Route>
             <Route path="/mshawy"><Mshawy/></Route>
-
+            <Route path="/frid"><Frid/></Route>
             
 
         </Switch>
